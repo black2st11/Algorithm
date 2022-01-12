@@ -12,3 +12,4 @@ count = 0
 for coin in coins:
     count +=  remain // coin
     remain %= coin
+print(count)
