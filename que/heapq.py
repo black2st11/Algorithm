@@ -5,7 +5,6 @@ n = int(sys.stdin.readline().rstrip())
 q = []
 
 for _ in range(n):
-
     num = int(sys.stdin.readline().rstrip())
 
     if num == 0:
@@ -16,4 +15,3 @@ for _ in range(n):
             print(0)
     else:
         heapq.heappush(q, num)
-
